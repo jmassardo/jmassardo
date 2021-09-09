@@ -1,0 +1,20 @@
+<svg fill="none" viewBox="0 0 800 400" width="800" height="400" xmlns="http://www.w3.org/2000/svg">
+    <link xmlns="http://www.w3.org/1999/xhtml" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css"/>
+	<foreignObject width="100%" height="100%">
+		<div xmlns="http://www.w3.org/1999/xhtml">
+			<style>
+				i.fab {
+                    background-color: Red;
+                    border-radius: 8px;
+                    border: none;
+                    color: white;
+                    padding: 4px 6px;
+                    font-size: 20px;
+                }
+			</style>
+			<div>
+				<i class="fa fa-linkedin fab" aria-hidden="true"></i>
+			</div>
+		</div>
+	</foreignObject>
+</svg>

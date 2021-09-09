@@ -1,3 +1,29 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+.btn {
+  background-color: Red;
+  border-radius: 4px;
+  border: none;
+  color: white;
+  padding: 2px 4px;
+  /*font-size: 16px; */
+  cursor: pointer;
+  margin: 2px;
+}
+i.fab {
+  background-color: Red;
+  border-radius: 8px;
+  border: none;
+  color: white;
+  padding: 4px 6px;
+  font-size: 20px;
+}
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: Red;
+}
+</style>
+
 # Howdy!
 
 <p>My name is {{name}} and I'm a Staff Customer Success Architect at <a href="https://github.com">GitHub</a></p>
@@ -6,10 +32,10 @@
 <table>
     <tr>
         <th>
-            <p><a href="https://www.instagram.com/jamesmassardo/">Latest project pictures</a></p>
+            <p>Latest project pictures <a href="https://www.instagram.com/jamesmassardo/"><i class="fa fa-instagram fab" aria-hidden="true"></i></a></p>
         </th>
         <th>
-            <p><a href="https://dxrf.com/blog/">Latest Blog Posts</a></p>
+            <p>Latest Blog Posts</p>
         </th>
     </tr>
     <tr>
@@ -21,6 +47,7 @@
 {{#blog_posts}}
 <p>
 <a href="https://dxrf.com{{url}}">{{title}}</a> 
+{{#category}}<button onclick="document.location='https://dxrf.com/blog/tags/#{{ATTR.term}}'" class="btn"><i class="fa fa-tag"></i> {{ATTR.term}}</button>{{/category}}
 </p>
 {{#excerpt}}
 <p>{{_}}<div style="text-align: right;"><a href="https://dxrf.com{{url}}">Read More...</a></div></p>
@@ -34,7 +61,7 @@
 
 <p> Connect with me: 
 
-[![LinkedIn](assets/linkedin.svg)](https://www.linkedin.com/in/james-massardo/) |
+<a href="https://www.linkedin.com/in/james-massardo/"><i class="fa fa-linkedin fab" aria-hidden="true"></i></a> |
 <a href="https://github.com/jmassardo"><i class="fa fa-github fab" aria-hidden="true"></i></a> |
 <a href="https://www.facebook.com/james.massardo"><i class="fa fa-facebook fab" aria-hidden="true"></i></a> |
 <a href="https://twitter.com/jamesmassardo"><i class="fa fa-twitter fab" aria-hidden="true"></i></a> |
