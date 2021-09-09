@@ -1,0 +1,26 @@
+{
+  "name": "jmassardo",
+  "version": "1.0.0",
+  "description": "<!-- **jmassardo/jmassardo** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmassardo/jmassardo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jmassardo/jmassardo/issues"
+  },
+  "homepage": "https://github.com/jmassardo/jmassardo#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "mustache": "^4.2.0",
+    "node-fetch": "^2.6.1",
+    "puppeteer": "^5.1.0",
+    "xml2js": "^0.4.23"
+  }
+}

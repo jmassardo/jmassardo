@@ -1,0 +1,78 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+.btn {
+  background-color: Red;
+  border-radius: 4px;
+  border: none;
+  color: white;
+  padding: 2px 4px;
+  /*font-size: 16px; */
+  cursor: pointer;
+  margin: 2px;
+}
+i.fab {
+  background-color: Red;
+  border-radius: 8px;
+  border: none;
+  color: white;
+  padding: 4px 6px;
+  font-size: 20px;
+}
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: Red;
+}
+</style>
+
+# Howdy!
+
+<p>My name is {{name}} and I'm a Staff Customer Success Architect at <a href="https://github.com">GitHub</a></p>
+<p>I'm also a robotics enthusiast, electronics tinkerer, ham radio operator, pilot, wannabe programmer, technology fanatic, foodie, amateur mechanic</p>
+
+<table>
+    <tr>
+        <th>
+            <p>Latest project pictures <a href="https://www.instagram.com/jamesmassardo/"><i class="fa fa-instagram fab" aria-hidden="true"></i></a></p>
+        </th>
+        <th>
+            <p>Latest Blog Posts</p>
+        </th>
+    </tr>
+    <tr>
+        <td width="25%">
+            <p><img width="200" src="{{img1}}" /> <img width="200" src="{{img2}}" /> <img width="200" src="{{img3}}" /></p>
+        </td>
+        <td>
+    
+{{#blog_posts}}
+<p>
+<a href="https://dxrf.com{{url}}">{{title}}</a> 
+{{#category}}<button onclick="document.location='https://dxrf.com/blog/tags/#{{ATTR.term}}'" class="btn"><i class="fa fa-tag"></i> {{ATTR.term}}</button>{{/category}}
+</p>
+{{#excerpt}}
+<p>{{_}}<div style="text-align: right;"><a href="https://dxrf.com{{url}}">Read More...</a></div></p>
+{{/excerpt}}
+
+{{/blog_posts}}
+<p>last updated: {{blog_updated_date}}</p>
+</td>
+</tr>
+</table>
+
+<p> Connect with me: 
+
+<a href="https://www.linkedin.com/in/james-massardo/"><i class="fa fa-linkedin fab" aria-hidden="true"></i></a> |
+<a href="https://github.com/jmassardo"><i class="fa fa-github fab" aria-hidden="true"></i></a> |
+<a href="https://www.facebook.com/james.massardo"><i class="fa fa-facebook fab" aria-hidden="true"></i></a> |
+<a href="https://twitter.com/jamesmassardo"><i class="fa fa-twitter fab" aria-hidden="true"></i></a> |
+<a href="https://www.instagram.com/jamesmassardo/"><i class="fa fa-instagram fab" aria-hidden="true"></i></a>
+</p>
+
+
+
+
+
+
+
+<p>Special thanks to <a href='https://github.com/thmsgbrt'>Thomas Guibert</a> for his <a href="https://medium.com/swlh/how-to-create-a-self-updating-readme-md-for-your-github-profile-f8b05744ca91">blog post</a> on creating custom <a href="https://github.com">GitHub</a> Personal Readmes. <br/>
+This page was last generated on {{date}}.</p>
