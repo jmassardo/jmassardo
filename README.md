@@ -1,7 +1,7 @@
 # Howdy!
 
-<p>My name is James and I'm a Staff Customer Success Architect at <a href="https://github.com">GitHub</a></p>
-<p>I'm also a robotics enthusiast, electronics tinkerer, ham radio operator, pilot, wannabe programmer, technology fanatic, foodie, amateur mechanic</p>
+<p>My name is James and I'm a Staff Customer Success Architect at <a href="https://github.com">GitHub</a>. My primary role is helping companies leverage technology to achieve business outcomes.</p>
+<p>I'm also a robotics enthusiast, electronics tinkerer, ham radio operator, pilot, wannabe programmer, technology fanatic, foodie, amateur mechanic.</p>
 
 <table>
     <tr>
@@ -58,4 +58,4 @@
 </p>
 
 <p>Special thanks to <a href='https://github.com/thmsgbrt'>Thomas Guibert</a> for his <a href="https://medium.com/swlh/how-to-create-a-self-updating-readme-md-for-your-github-profile-f8b05744ca91">blog post</a> on creating custom <a href="https://github.com">GitHub</a> Personal Readmes. <br/>
-This page was last generated on Thursday, September 9, 6:23 PM CDT.</p>
+This page was last generated on Thursday, September 9, 6:31 PM CDT.</p>
