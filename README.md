@@ -43,7 +43,7 @@
 </p>
 <p>Today, I&#39;ll be sharing some of my experiences working with audit and compliance. In a previous life, I was responsible for providing compliance data and responses for a portion of multiple internal audits and external examinations.</p>
 
-<p>last updated: Thursday, September 9, 2021, 4:17 PM CDT</p>
+<p>last updated: Thursday, September 9, 2021, 4:31 PM CDT</p>
 </td>
 </tr>
 </table>
@@ -51,11 +51,11 @@
 <p> Connect with me: 
 
 [![LinkedIn](assets/linkedin.svg)](https://www.linkedin.com/in/james-massardo/)
-[![GitHub](assets/GitHub.svg)](https://github.com/jmassardo)
+[![GitHub](assets/github.svg)](https://github.com/jmassardo)
 [![Facebook](assets/facebook.svg)](https://www.facebook.com/james.massardo)
 [![Twitter](assets/twitter.svg)](https://twitter.com/jamesmassardo)
 [![Instagram](assets/instagram.svg)](https://www.instagram.com/jamesmassardo/)
 </p>
 
 <p>Special thanks to <a href='https://github.com/thmsgbrt'>Thomas Guibert</a> for his <a href="https://medium.com/swlh/how-to-create-a-self-updating-readme-md-for-your-github-profile-f8b05744ca91">blog post</a> on creating custom <a href="https://github.com">GitHub</a> Personal Readmes. <br/>
-This page was last generated on Thursday, September 9, 6:06 PM CDT.</p>
+This page was last generated on Thursday, September 9, 6:16 PM CDT.</p>

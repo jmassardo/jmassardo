@@ -8,13 +8,7 @@ const MUSTACHE_MAIN_DIR = './main.mustache';
 const puppeteerService = require('./services/puppeteer.service');
 const parser = new xml2js.Parser({ attrkey: "ATTR" });
 
-/**
-  * DATA is the object that contains all
-  * the data to be provided to Mustache
-  * Notice the "name" and "date" property.
-*/
 let DATA = {
-  name: 'James',
   date: new Date().toLocaleDateString('en-US', {
     weekday: 'long',
     month: 'long',
@@ -35,9 +29,7 @@ async function setInstagramPosts() {
 
 async function setBlogPosts() {
     await fetch(
-        //fs.readFileSync("data.xml", "utf8")
-        `http://127.0.0.1:4000/atom.xml`
-        //`https://dxrf.com/atom.xml`
+        `https://dxrf.com/atom.xml`
     )
     .then(r => r.text())
     .then(r => {
@@ -62,32 +54,6 @@ async function setBlogPosts() {
     });
 }
 
-async function setWeatherInformation() {
-    await fetch(
-        `https://api.openweathermap.org/data/2.5/weather?q=joplin&appid=${process.env.OPEN_WEATHER_MAP_KEY}&units=imperial`
-    )
-    .then(r => r.json())
-    .then(r => {
-        DATA.city_temperature = Math.round(r.main.temp);
-        DATA.city_weather = r.weather[0].description;
-        DATA.city_weather_icon = r.weather[0].icon;
-        DATA.sun_rise = new Date(r.sys.sunrise * 1000).toLocaleString('en-US', {
-            hour: '2-digit',
-            minute: '2-digit',
-            timeZone: 'America/Chicago',
-        });
-        DATA.sun_set = new Date(r.sys.sunset * 1000).toLocaleString('en-US', {
-            hour: '2-digit',
-            minute: '2-digit',
-            timeZone: 'America/Chicago',
-        });
-    });
-}
-/**
-  * A - We open 'main.mustache'
-  * B - We ask Mustache to render our file with the data
-  * C - We create a README.md file with the generated output
-  */
 function generateReadMe() {
   fs.readFile(MUSTACHE_MAIN_DIR, (err, data) =>  {
     if (err) throw err;
@@ -96,27 +62,10 @@ function generateReadMe() {
   });
 }
 async function action() {
-    /**
-     * Fetch Weather
-     */
-    await setWeatherInformation();
-  
-    /**
-     * Get pictures
-     */
     await setInstagramPosts();
-  
-    /**
-     * Get blog posts
-     */
     await setBlogPosts();
-  
-    /**
-     * Generate README
-     */
     await generateReadMe();
-  
     await puppeteerService.close();
   }
   
-  action();
+action();
