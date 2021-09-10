@@ -19,6 +19,11 @@
         <td>
     
 <p>
+<a href="https://dxrf.com">Consuming Jekyll-feed xml with Node.JS and Mustache templates</a> 
+</p>
+<p>I&#39;ve been spending some free time sprucing up my GitHub personal readme. One of those tasks was to pull the last 5 blog posts from here and list them on my readme. This post will outline some of the basic components and provide a link to my repo where the functional source code lives.</p>
+
+<p>
 <a href="https://dxrf.com">Rewriting URLs with Nginx</a> 
 </p>
 <p>In my post &#39;HTTPS for Multiple domains using GitHub pages&#39;, I was originally using a HTML file with a meta redirect. While this technique does work, I discovered a very annoying flaw. Anyone that had an old, or non-ssl link was redirected to the home page instead of the page or post they wanted. This isn&#39;t a delightful experience so I started doing some research to find a better path.</p>
@@ -38,12 +43,7 @@
 </p>
 <p>I&#39;ve been doing some work related to building and deploying [Habitat](https:&#x2F;&#x2F;www.habitat.sh) artifacts using [Azure DevOps](https:&#x2F;&#x2F;dev.azure.com) so I thought I&#39;d blog the basic steps so future me can set it up again...</p>
 
-<p>
-<a href="https://dxrf.com">Effectively Managing Audits and Compliance</a> 
-</p>
-<p>Today, I&#39;ll be sharing some of my experiences working with audit and compliance. In a previous life, I was responsible for providing compliance data and responses for a portion of multiple internal audits and external examinations.</p>
-
-<p>last updated: Thursday, September 9, 2021, 4:31 PM CDT</p>
+<p>last updated: Thursday, September 9, 2021, 10:02 PM CDT</p>
 </td>
 </tr>
 </table>
@@ -58,4 +58,4 @@
 </p>
 
 <p>Special thanks to <a href='https://github.com/thmsgbrt'>Thomas Guibert</a> for his <a href="https://medium.com/swlh/how-to-create-a-self-updating-readme-md-for-your-github-profile-f8b05744ca91">blog post</a> on creating custom <a href="https://github.com">GitHub</a> Personal Readmes. <br/>
-This page was last generated on Thursday, September 9, 7:04 PM CDT.</p>
+This page was last generated on Friday, September 10, 1:02 AM CDT.</p>
