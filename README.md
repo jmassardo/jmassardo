@@ -43,7 +43,7 @@
 </p>
 <p>I&#39;ve been doing some work related to building and deploying [Habitat](https:&#x2F;&#x2F;www.habitat.sh) artifacts using [Azure DevOps](https:&#x2F;&#x2F;dev.azure.com) so I thought I&#39;d blog the basic steps so future me can set it up again...</p>
 
-<p>last updated: Thursday, September 9, 2021, 10:02 PM CDT</p>
+<p>last updated: Monday, September 13, 2021, 10:11 AM CDT</p>
 </td>
 </tr>
 </table>
@@ -58,4 +58,4 @@
 </p>
 
 <p>Special thanks to <a href='https://github.com/thmsgbrt'>Thomas Guibert</a> for his <a href="https://medium.com/swlh/how-to-create-a-self-updating-readme-md-for-your-github-profile-f8b05744ca91">blog post</a> on creating custom <a href="https://github.com">GitHub</a> Personal Readmes. <br/>
-This page was last generated on Monday, September 13, 7:02 AM CDT.</p>
+This page was last generated on Monday, September 13, 1:04 PM CDT.</p>
