@@ -19,6 +19,11 @@
         <td>
     
 <p>
+<a href="https://dxrf.com">Setting up Shared Enterprise Actions</a> 
+</p>
+<p>I recently had a customer that wanted to set up shared runners in their enterprise but the docs weren&#39;t super clear so I wrote up these steps to make it easier.</p>
+
+<p>
 <a href="https://dxrf.com">Consuming Jekyll-feed xml with Node.JS and Mustache templates</a> 
 </p>
 <p>I&#39;ve been spending some free time sprucing up my GitHub personal readme. One of those tasks was to pull the last 5 blog posts from here and list them on my readme. This post will outline some of the basic components and provide a link to my repo where the functional source code lives.</p>
@@ -38,12 +43,7 @@
 </p>
 <p>In today&#39;s modern Internet, nearly all browsers show a big warning when viewing an insecure&#x2F;non-ssl site. If you own a single domain name and use [GitHub Pages](https:&#x2F;&#x2F;pages.github.com&#x2F;) to host your site, this is a simple matter to resolve. So what happens if you own multiple domains that point to the same site?</p>
 
-<p>
-<a href="https://dxrf.com">Habitat pipelines in Azure DevOps</a> 
-</p>
-<p>I&#39;ve been doing some work related to building and deploying [Habitat](https:&#x2F;&#x2F;www.habitat.sh) artifacts using [Azure DevOps](https:&#x2F;&#x2F;dev.azure.com) so I thought I&#39;d blog the basic steps so future me can set it up again...</p>
-
-<p>last updated: Monday, September 13, 2021, 10:11 AM CDT</p>
+<p>last updated: Tuesday, September 28, 2021, 10:29 AM CDT</p>
 </td>
 </tr>
 </table>
@@ -58,4 +58,4 @@
 </p>
 
 <p>Special thanks to <a href='https://github.com/thmsgbrt'>Thomas Guibert</a> for his <a href="https://medium.com/swlh/how-to-create-a-self-updating-readme-md-for-your-github-profile-f8b05744ca91">blog post</a> on creating custom <a href="https://github.com">GitHub</a> Personal Readmes. <br/>
-This page was last generated on Tuesday, September 28, 7:03 AM CDT.</p>
+This page was last generated on Tuesday, September 28, 1:02 PM CDT.</p>
