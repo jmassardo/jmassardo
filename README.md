@@ -43,7 +43,7 @@
 </p>
 <p>This post is going to outline some basics, interesting tidbits, and caveats on unit testing rego policies.</p>
 
-<p>last updated: Thursday, January 6, 2022 at 11:20 AM CST</p>
+<p>last updated: Thursday, January 6, 2022, 11:20 AM CST</p>
 </td>
 </tr>
 </table>
@@ -58,4 +58,4 @@
 </p>
 
 <p>Special thanks to <a href='https://github.com/thmsgbrt'>Thomas Guibert</a> for his <a href="https://medium.com/swlh/how-to-create-a-self-updating-readme-md-for-your-github-profile-f8b05744ca91">blog post</a> on creating custom <a href="https://github.com">GitHub</a> Personal Readmes. <br/>
-This page was last generated on Monday, August 29 at 7:03 AM CDT.</p>
+This page was last generated on Monday, August 29, 1:02 PM CDT.</p>
