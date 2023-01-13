@@ -19,6 +19,11 @@
         <td>
     
 <p>
+<a href="https:&#x2F;&#x2F;dxrf.com&#x2F;blog&#x2F;2023&#x2F;01&#x2F;12&#x2F;creating-ghec-orgs">Create a GHEC org via script</a> 
+</p>
+<p>A super common task is automating the creation of GitHub objects. One, organziations, isn&#39;t super well documented and kind of hard to find so I&#39;m making a note on how to do it.</p>
+
+<p>
 <a href="https:&#x2F;&#x2F;dxrf.com&#x2F;blog&#x2F;2021&#x2F;09&#x2F;28&#x2F;gh-copilot-markdown-all-in-one-extension">GitHub Copilot tab-complete not working in markdown files</a> 
 </p>
 <p>I&#39;ve been with the beta for GitHub Copilot for a while and I recently noticed that the tab-complete stopped working when editing markdown files. I started searching and found a couple GH issues, one of which has a usable workaround.</p>
@@ -38,12 +43,7 @@
 </p>
 <p>In my post &#39;HTTPS for Multiple domains using GitHub pages&#39;, I was originally using a HTML file with a meta redirect. While this technique does work, I discovered a very annoying flaw. Anyone that had an old, or non-ssl link was redirected to the home page instead of the page or post they wanted. This isn&#39;t a delightful experience so I started doing some research to find a better path.</p>
 
-<p>
-<a href="https:&#x2F;&#x2F;dxrf.com&#x2F;blog&#x2F;2021&#x2F;02&#x2F;23&#x2F;rego-unit-testing">Rego Unit Testing</a> 
-</p>
-<p>This post is going to outline some basics, interesting tidbits, and caveats on unit testing rego policies.</p>
-
-<p>last updated: Thursday, January 6, 2022 at 11:20 AM CST</p>
+<p>last updated: Friday, January 13, 2023 at 8:25 AM CST</p>
 </td>
 </tr>
 </table>
@@ -58,4 +58,4 @@
 </p>
 
 <p>Special thanks to <a href='https://github.com/thmsgbrt'>Thomas Guibert</a> for his <a href="https://medium.com/swlh/how-to-create-a-self-updating-readme-md-for-your-github-profile-f8b05744ca91">blog post</a> on creating custom <a href="https://github.com">GitHub</a> Personal Readmes. <br/>
-This page was last generated on Friday, January 13 at 6:03 AM CST.</p>
+This page was last generated on Friday, January 13 at 12:02 PM CST.</p>
